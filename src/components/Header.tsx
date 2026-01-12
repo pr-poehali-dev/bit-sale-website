@@ -37,6 +37,10 @@ export default function Header({ cartCount }: HeaderProps) {
               </span>
             )}
           </Button>
+          <Button variant="outline" onClick={() => window.location.href = '/admin'}>
+            <Icon name="Shield" size={16} className="mr-2" />
+            Admin
+          </Button>
           <Button>Sign In</Button>
         </div>
       </div>
